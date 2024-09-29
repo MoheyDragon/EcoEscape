@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ces4gbb18vmse"
+path="res://.godot/imported/ImageToStl.com_eur-pallet.obj-18c415e0e1d05e5f7b4e6a8e3c80eaaf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ImageToStl.com_eur-pallet.obj-18c415e0e1d05e5f7b4e6a8e3c80eaaf.mesh"]
+
+source_file="res://ImageToStl.com_eur-pallet.obj"
+dest_files=["res://.godot/imported/ImageToStl.com_eur-pallet.obj-18c415e0e1d05e5f7b4e6a8e3c80eaaf.mesh", "res://.godot/imported/ImageToStl.com_eur-pallet.obj-18c415e0e1d05e5f7b4e6a8e3c80eaaf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,34 @@
+[gd_scene load_steps=6 format=3 uid="uid://c5ffkfh734apy"]
+
+[ext_resource type="PackedScene" uid="uid://c5syxnufyskp2" path="res://scenes/bigger storage rack.tscn" id="1_7aj5h"]
+[ext_resource type="PackedScene" uid="uid://r3830uk7piuh" path="res://scenes/storage rack.tscn" id="2_hgrmu"]
+[ext_resource type="PackedScene" uid="uid://dd6b3ikrqrnpy" path="res://scenes/pallet.tscn" id="3_wqdg3"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_cbr8h"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fdw85"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.94493, 0, 0, 0, 1.49828, 0, 0, 0, 5.73757, 0.00243092, 0, 0)
+mesh = SubResource("PlaneMesh_cbr8h")
+surface_material_override/0 = SubResource("ShaderMaterial_fdw85")
+
+[node name="Node3D" parent="." instance=ExtResource("1_7aj5h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0629764, 0, -4.29294)
+
+[node name="storage rack" parent="." instance=ExtResource("2_hgrmu")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.066154, 0, -2.27211)
+
+[node name="Node3D2" parent="." instance=ExtResource("3_wqdg3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.170398, 0.0305669, -1.18359)
+
+[node name="Node3D3" parent="." instance=ExtResource("3_wqdg3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.170398, 0.204066, -1.18359)
+
+[node name="Node3D5" parent="." instance=ExtResource("3_wqdg3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.170398, 0.360243, -1.18359)
+
+[node name="storage rack2" parent="." instance=ExtResource("2_hgrmu")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.000358582, 0.00744154, 0.0767961)
